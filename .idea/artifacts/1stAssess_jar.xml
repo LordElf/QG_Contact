@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="1stAssess:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/1stAssess_jar</output-path>
+    <root id="root">
+      <element id="archive" name="1stAssess.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="1stAssess" />
+      </element>
+      <element id="library" level="project" name="org.ops4j.pax.jdbc:pax-jdbc-mysql:0.8.0" />
+      <element id="library" level="application" name="mysql-connector-java-8.0.11" />
+    </root>
+  </artifact>
+</component>

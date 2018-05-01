@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.ops4j.pax.jdbc:pax-jdbc-mysql:0.8.0" type="repository">
+    <properties maven-id="org.ops4j.pax.jdbc:pax-jdbc-mysql:0.8.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pax-jdbc-mysql-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

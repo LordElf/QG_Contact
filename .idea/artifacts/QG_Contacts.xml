@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="QG_Contacts">
+    <output-path>$PROJECT_DIR$/out/artifacts/QG_Contacts</output-path>
+    <root id="root">
+      <element id="archive" name="QG_Contacts.jar" />
+      <element id="archive" name="1stAssess.jar">
+        <element id="module-output" name="1stAssess" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/../META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="org.ops4j.pax.jdbc:pax-jdbc-mysql:0.8.0" />
+      <element id="library" level="application" name="mysql-connector-java-8.0.11" />
+    </root>
+  </artifact>
+</component>
