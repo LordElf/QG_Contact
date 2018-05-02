@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76cc9b12-69d1-457d-ab71-fc1d6969892f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="Register.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Shawn/GUI/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state relative-caret-position="45">
+              <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,8 +195,8 @@
         <option value="$PROJECT_DIR$/src/com/Shawn/GUI/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/com/Shawn/GUI/Login.java" />
         <option value="$PROJECT_DIR$/src/com/Shawn/DAO/DataBase.java" />
-        <option value="$PROJECT_DIR$/src/com/Shawn/GUI/Register.java" />
         <option value="$PROJECT_DIR$/src/com/Shawn/GUI/UIPage.java" />
+        <option value="$PROJECT_DIR$/src/com/Shawn/GUI/Register.java" />
       </list>
     </option>
   </component>
@@ -817,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Shawn/GUI/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="115" column="35" lean-forward="true" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        <state relative-caret-position="45">
+          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
