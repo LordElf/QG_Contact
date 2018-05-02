@@ -139,7 +139,7 @@ public class UIPage extends JFrame{
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        String query = "INSERT INTO `qg`.`qg_contact` (`id`, `username`, `MemberName`, `QG_Group`, `grade`, `class`, `phone_num`, `email`, `dorm`, `family_Address`) VALUES ('"
+                        String query = "INSERT INTO `qg`.`qg_addressbook` (`id`, `username`, `MemberName`, `QG_Group`, `grade`, `class`, `phone_num`, `email`, `dorm`, `family_Address`) VALUES ('"
                                 + Integer.parseInt(txtid.getText()) + "','" + usr + "','" + txtName.getText() + "','" + txtQG_Group.getText() + "','" + txtGrade.getText() + "','" + txtClass.getText() + "','" +
                                 Integer.parseInt(txtPhone.getText()) + "','" + txtEmail.getText() + "','" + txtDorm.getText() + "','" + txtAddress.getText() + "');";
                         executeSQlQuery(query, "inserted", conn);
@@ -152,7 +152,7 @@ public class UIPage extends JFrame{
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        String query = "UPDATE `qg`.`qg_contact` SET `MemberName` = '" + txtName.getText() + "', `QG_Group` = '" + txtQG_Group.getText() + "', `grade` = '" +
+                        String query = "UPDATE `qg`.`qg_addressbook` SET `MemberName` = '" + txtName.getText() + "', `QG_Group` = '" + txtQG_Group.getText() + "', `grade` = '" +
                                 txtGrade.getText() + "', `class` = '" + txtClass.getText() + "', `phone_num` = '" +
                                 Integer.parseInt(txtPhone.getText()) + "', `email` = '" + txtEmail.getText() + "',`dorm` = '" + txtDorm.getText() + "',`family_Address` = '" +
                                 txtAddress.getText() +"' WHERE (`id` = '" + Integer.parseInt(txtid.getText())+"');";
@@ -166,7 +166,7 @@ public class UIPage extends JFrame{
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        String query = "DELETE FROM `QG_Contact` WHERE id = " + Integer.parseInt(txtid.getText()) + ";";
+                        String query = "DELETE FROM `qg_addressbook` WHERE id = " + Integer.parseInt(txtid.getText()) + ";";
                         executeSQlQuery(query, "Deleted", conn);
                     }
                 }
@@ -201,7 +201,7 @@ public class UIPage extends JFrame{
     {
         ArrayList<GetInfo> usersList = new ArrayList<GetInfo>();
 
-        String query = "SELECT * FROM  `QG_Contact` GROUP BY id";
+        String query = "SELECT * FROM  `qg_addressbook` GROUP BY id";
         Statement st;
         ResultSet rs;
 
