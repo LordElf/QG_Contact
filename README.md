@@ -21,4 +21,4 @@
 
 
 ## 部件逻辑
-![Login](https://1drv.ms/u/s!Aj1nT3eioc9gi1QMUn6yn-kpgZLn)
+![Login](https://github.com/LordElf/QG_Contact/blob/master/images%20for%20README/QG_Contacts.png)
